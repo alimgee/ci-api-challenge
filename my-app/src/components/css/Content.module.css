@@ -1,8 +1,19 @@
+.SearchItem {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0px;
+    border: 1px solid rgb(238, 238, 238);
+    background-color: white;
+    max-width: 80%;
+    box-shadow: 0px 10px 30px rgb(238, 238, 238);
+
+}
+
 .Content {
     grid-row: 2;
     grid-column: 2;
     padding: 5px;
-    padding-right: 70px;
+    padding-right: 60px;
 }
 
 .Content h1{
@@ -27,6 +38,7 @@
 .TitleBar form input{
     border: 1px solid lightgrey;
     margin-left: 10px;
+    margin-bottom: 7px;
 }
 
 .TitleBar h1{

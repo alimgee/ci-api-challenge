@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import css from './css/NavBarSimple.module.css';
+import css from "./css/NavBarSimple.module.css";
 
 class NavBarSimple extends Component {
 
@@ -7,8 +7,8 @@ class NavBarSimple extends Component {
         super(props);
         
         this.state = {
-            message: 'Hello, guest!',
-            buttonText: 'Log in'
+            message: "Hello, guest!",
+            buttonText: "Log in"
         }
     }
 

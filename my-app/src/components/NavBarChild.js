@@ -1,17 +1,17 @@
-import React from 'react';
+import React from "react";
 
 function NavBarChild(props) {
     return (
-        props.isloggedIn ?
+        props.isLoggedIn ?
         <button onClick={props.handleClick}>Login</button>
         :
         <form>
             <label htmlFor = "username">Username:</label>
-            <input placeholder='username' />
+            <input placeholder="username" id="username"/>
         
             <label htmlFor = "password">Password:</label>
-            <input placeholder='password'/>
-            <button onClick={props.handleClick}>Submit</button>
+            <input placeholder="password" id="password"/>
+            <button  onClick={props.handleClick}>Submit</button>
         </form>
     )
 }

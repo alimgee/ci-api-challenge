@@ -39,11 +39,13 @@
 .NavBar label {
     color: #4a4a4f;
     margin: 1px;
+    padding: 5px 0 5px;
     padding-right: 10px;
 }
 
 .NavBar input {
     margin: 1px;
+    margin-right: 10px;
     width: 150px;
     border: 1px solid lightgrey;
     padding: 2px 5px;
